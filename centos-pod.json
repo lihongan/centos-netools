@@ -10,7 +10,7 @@
   "spec": {
       "containers": [{
         "name": "centos-pod",
-        "image": "lihongan/centos-netools"
+        "image": "quay.io/hongli/centos-netools"
       }]
   }
 }
