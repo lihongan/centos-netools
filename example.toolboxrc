@@ -1,0 +1,2 @@
+REGISTRY=quay.io
+IMAGE=hongli/centos-debug:latest
