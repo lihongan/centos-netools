@@ -1,0 +1,7 @@
+FROM centos:8
+MAINTAINER Hongan Li <hongli@redhat.com>
+# install required tools for network debugging
+RUN yum -y update \
+    && yum -y install which telnet curl openssl ethtool bind-utils tcpdump iproute iputils iproute-tc perf nmap-ncat net-tools \
+    && yum clean all
+RUN echo "centos-debug pod used by RHCOS toolbox"
