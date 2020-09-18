@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    name: centos-pod
+  name: centos-pod
+spec:
+  containers:
+  - image: quay.io/hongli/centos-netools
+    name: centos-pod
+  nodeName: a.b.c.d
