@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    name: centos-pod
+  name: centos-pod3
+spec:
+  containers:
+  - image: quay.io/hongli/centos-netools
+    name: centos-pod
+  dnsConfig:
+    options:
+    - name: single-request
+    - name: use-vc
+  nodeName: <node_name>
