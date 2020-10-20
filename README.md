@@ -1,4 +1,5 @@
 # centos-netools
+# CentOS based Image that contains network debugging tools, and example pods with the image
 
 Dockerfile
 
